@@ -1,16 +1,11 @@
 LICENSE_KEY = ""                                     # Лицензионный ключ для MinterMachine
-
 ACCOUNTS_TO_RUN = [1]                                # Диапазон от и до, либо один аккаунт в виде [5] или 5
-
 USE_PROXY = true                                     # использовать ли прокси
-
 TELEGRAM_NOTIFICATIONS = false                       # использовать ли уведомления в Telegram
 TELEGRAM_BOT_TOKEN = ""                              # токен бота из https://t.me/BotFather для уведомлений
 TELEGRAM_USER_ID = 0                                 # tg id получателя уведомлений из https://t.me/getmyid_bot
-
-TG_GIFTS_RECIPIENT = "realaskaer"                    # никнейм получателя подарка без @
 TG_GIFTS_MESSAGE = "Everything will be all right!"   # сообщение, которое будет отправлено вместе с подарком
 TG_GIFTS_HIDE_NAME = true                            # функция, при активации которой в профиле получателя не будет отображаться отправитель подарка
 TG_GIFTS_SLEEP_TIME_MONITOR = [100, 200]             # время в миллисекундах между запросами на поиск новых подарков
-TG_GIFTS_BUY_ATTEMPTS = 3000                         # количество попыток покупки подарка
+TG_GIFTS_BUY_ATTEMPTS = 10                           # количество попыток покупки подарка
 TG_GIFTS_DELAY_BETWEEN_BUY_ATTEMPTS_MS = 100         # время в миллисекундах между попытками купить подарок
