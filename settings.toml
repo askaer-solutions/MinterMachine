@@ -9,3 +9,4 @@ TG_GIFTS_HIDE_NAME = true                            # функция, при а
 TG_GIFTS_SLEEP_TIME_MONITOR = [100, 200]             # время в миллисекундах между запросами на поиск новых подарков
 TG_GIFTS_BUY_ATTEMPTS = 10                           # количество попыток покупки подарка
 TG_GIFTS_DELAY_BETWEEN_BUY_ATTEMPTS_MS = 100         # время в миллисекундах между попытками купить подарок
+TG_GIFTS_PRIORITY_MODE = "concurrent"                # режим покупки подарков: concurrent, supply:min, supply:max, price:min, price:max (см. документацию)
